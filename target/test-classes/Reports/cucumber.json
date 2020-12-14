@@ -1,0 +1,83 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "TC01_to validate Scrollup scroll down working or not",
+        "description": "",
+        "id": "validation-of-iphone-search-in-amazon-page;tc01-to-validate-scrollup-scroll-down-working-or-not",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25881262300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "userbshould launch the mobile application",
+            "match": {
+              "location": "StepDefinition.userbshould_launch_the_mobile_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5066587500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should tab English Icon",
+            "match": {
+              "location": "StepDefinition.user_should_tab_English_Icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4291662200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should  tab Skip sign in",
+            "match": {
+              "location": "StepDefinition.user_should_tab_Skip_sign_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20826966500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user  should scoll down until  explore",
+            "match": {
+              "location": "StepDefinition.user_should_scoll_down_until_explore()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i should  generate the JVM report",
+            "match": {
+              "location": "StepDefinition.i_should_generate_the_JVM_report()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "validation of iphone search in Amazon Page",
+    "description": "",
+    "id": "validation-of-iphone-search-in-amazon-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/Search.feature",
+    "tags": []
+  }
+]
